@@ -44,6 +44,7 @@ npm run dev
 4. Select the /dist folder generated after running npm run build.
    
 # Project Structure 
+```
 .
 ├── .github/               → GitHub workflows (CI/CD)
 ├── dist/                  → Production build output (auto-generated)
@@ -63,3 +64,4 @@ npm run dev
 ├── tailwind.config.ts     → Tailwind CSS config
 ├── tsconfig.json          → TypeScript config
 ├── vite.config.ts         → Vite config
+```
