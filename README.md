@@ -46,21 +46,21 @@ npm run dev
 # Project Structure 
 ```
 .
-├── .github/               → GitHub workflows (CI/CD)
-├── dist/                  → Production build output (auto-generated)
-├── node_modules/          → Installed dependencies (auto-generated)
-├── public/                → Static assets (icons, manifest, etc.)
+
+├── dist/                  → Production build output 
+├── node_modules/          → Installed dependencies 
+├── public/                → Static assets 
 ├── src/                   → Source code
 │   ├── popup/             → Popup UI
 │   ├── background/        → Background scripts
-│   └── content/           → Content scripts injected into webpages
-├── .gitignore             → Git ignore rules
-├── .prettierrc            → Prettier config
+│   └── content/           
+├── .gitignore             
+├── .prettierrc          
 ├── components.json        → UI components config (optional)
-├── index.html             → HTML entry (Vite dev)
-├── manifest.json          → Extension manifest (V3)
+├── index.html             → HTML entry 
+├── manifest.json          → Extension manifest 
 ├── package.json           → Project metadata and dependencies
-├── pnpm-lock.yaml         → Lock file (optional)
+├── pnpm-lock.yaml         
 ├── tailwind.config.ts     → Tailwind CSS config
 ├── tsconfig.json          → TypeScript config
 ├── vite.config.ts         → Vite config
